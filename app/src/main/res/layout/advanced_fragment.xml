@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.BackStroke"
+            android:layout_margin="30dp"
+            android:textSize="28sp"
+            android:fontFamily="cursive"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learning how to do the backstroke perfectly is a simple matter of practicing your form. Learning a few related skills like how to turn and how to stay headed in a straight line can also help greatly. With a little practice, you'll be able to power down the pool with a vigorous backstroke or float along at a leisurely pace.
+"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:textStyle="italic">
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ARM MOVEMENT"
+            android:layout_marginLeft="10sp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:fontFamily="cursive">
+        </TextView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/arm2"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LEG MOVEMENT"
+            android:layout_marginLeft="10sp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_marginTop="15sp"
+            android:fontFamily="cursive">
+            </TextView>
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/leg2"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BODY MOVEMENT"
+            android:layout_marginLeft="10sp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_marginTop="15sp"
+            android:fontFamily="cursive">
+        </TextView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/body2"
+            android:layout_marginTop="15dp"
+            />
+
+
+
+        <!--BUTTERFLY SWIMMING-->
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Butterfly Swimming"
+            android:layout_margin="30dp"
+            android:textSize="28sp"
+            android:fontFamily="cursive"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The butterfly swimming technique with the dolphin kick consists of synchronous arm movement with a synchronous leg kick. Good technique is crucial to swim this style effectively. The wave-like body movement is also very significant, as this is the key to easy synchronous over-water recovery and breathing."
+             android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:textStyle="italic">
+        </TextView>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ARM MOVEMENT"
+            android:layout_marginLeft="10sp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:fontFamily="cursive">
+        </TextView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/butarm"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LEG MOVEMENT"
+            android:layout_marginLeft="10sp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:fontFamily="cursive">
+        </TextView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/butleg"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BODY MOVEMENT"
+            android:layout_marginLeft="10sp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:fontFamily="cursive">
+        </TextView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/butbody"
+            android:layout_marginTop="15dp"
+            />
+
+    </TableLayout>
+
+</ScrollView>

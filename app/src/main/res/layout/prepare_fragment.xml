@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    >
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+
+        >
+
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SO WHAT ACTUALLY IS WARMUP?? "
+        android:layout_margin="30dp"
+        android:textSize="28sp"
+        android:fontFamily="cursive"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        />
+
+        <ImageView
+
+            android:src="@drawable/warmup"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:gravity="center"
+            >
+
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-These actions make your muscles and joints be warmed up"
+            android:layout_margin="5sp"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+        android:textStyle="italic">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-These actions make your muscles and joints be warmed up"
+            android:layout_margin="5sp"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:textStyle="italic">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STEPS IN WARMUP"
+            android:layout_margin="30dp"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:fontFamily="cursive"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/warmsteps"
+            >
+
+
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FOllow these steps and just dive in :)"
+            android:layout_margin="5sp"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:textStyle="italic">
+
+      </TextView>
+
+
+
+
+    </TableLayout>
+
+
+
+</ScrollView>

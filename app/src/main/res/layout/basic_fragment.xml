@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    >
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.BreastStroke"
+            android:layout_margin="30dp"
+            android:textSize="28sp"
+            android:fontFamily="cursive"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The breaststroke is without a doubt one of the most popular swimming strokes. In fact, many recreational swimmers are perfectly happy using this swim stroke all the time. Because it is so popular, we consider it as one of the basic swimming strokes."
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:textStyle="italic">
+        </TextView>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ARM MOVEMENT"
+            android:layout_marginLeft="10sp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:fontFamily="cursive"
+            android:layout_marginTop="20sp"
+            >
+        </TextView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/bs1"
+            android:layout_marginTop="15dp"
+            />
+
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LEG MOVEMENT"
+            android:layout_marginLeft="10sp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:fontFamily="cursive"
+            android:layout_marginTop="20sp"
+            >
+        </TextView>
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/bs2"
+            android:layout_marginTop="15dp"
+            />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BODY MOVEMENT"
+            android:layout_marginLeft="10sp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:fontFamily="cursive"
+            android:layout_marginTop="20sp"
+            >
+        </TextView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/bs3"
+            android:layout_marginTop="15dp"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Freestyle Swimming"
+            android:layout_margin="30dp"
+            android:textSize="28sp"
+            android:fontFamily="cursive"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Freestyle swimming also commonly referred to as the Front Crawl stroke is the fastest swimming style developed. Of  all four swimming strokes, two are considered long axis strokes, Freestyle swimming and the other being Backstroke. Freestyle is the only stroke which is not regulated by FINA, though it is the most popular stroke swum at most competitions and generally the stroke which most people use for training."
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:textStyle="italic">
+        </TextView>
+
+           <!-- FREE STYLE SWIMMING-->
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ARM MOVEMENT"
+            android:layout_marginLeft="10sp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:fontFamily="cursive"
+            android:layout_marginTop="20sp">
+
+        </TextView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/arm1"
+            android:layout_marginTop="15dp"
+            />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" LEG MOVEMENT"
+            android:layout_marginLeft="10sp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:fontFamily="cursive"
+            android:layout_marginTop="20sp">
+
+        </TextView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/leg1"
+            android:layout_marginTop="15dp"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" BODY MOVEMENT"
+            android:layout_marginLeft="10sp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:fontFamily="cursive"
+            android:layout_marginTop="20sp">
+
+        </TextView>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/body1"
+            android:layout_marginTop="15dp"
+            />
+    </TableLayout>
+
+
+</ScrollView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home"
+            >
+        </item>
+        <item
+            android:id="@+id/nav_prep"
+            android:icon="@drawable/prep"
+            android:title="preparing" />
+        <item
+            android:id="@+id/nav_basic"
+            android:icon="@drawable/beach"
+            android:title="Basic" />
+        <item
+            android:id="@+id/nav_adv"
+            android:icon="@drawable/adv"
+            android:title="Advanced" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_email"
+                android:icon="@drawable/email"
+                android:title="Email us" />
+
+            <item
+                android:id="@+id/nav_call"
+                android:icon="@drawable/phone"
+                android:title="Call us " />
+
+        </menu>
+    </item>
+
+</menu>
